@@ -1,0 +1,261 @@
+@media screen and (max-width:1135px){
+    h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    p{
+        font-size: 0.95rem;
+    }
+    .main-nav{
+        padding-inline: 20px;
+    }
+    
+    .toggle-button{
+        display: block;
+        height: auto;
+        width: auto;
+    }
+
+    .secondary-button {
+        display: none;
+    }
+    
+    .header-container{
+        padding-inline: 25px;        
+    }
+    
+    .hero-container{
+        flex-direction: column;
+        align-items: start;
+        padding-inline: 25px;
+    }
+    
+    .hero-text-container h1{
+        margin-bottom: 25px;
+    }
+    .hero-right-container{
+        display: none;
+    }
+
+    .row{
+        height: 8vh;
+    }
+
+    .utility-white-btn{
+        font-size: 1rem;
+    }
+    
+    .feature-container{
+        flex-direction: column-reverse;
+        align-items: start;
+        padding-inline: 25px;
+        gap: 40px;
+    }
+
+    .feature-text-container{
+        width: 100%;
+    }
+
+    .feature-text-container h1{
+        width: 100%;
+    }
+    .feature-text-container p{
+        margin-block: 20px;
+    }
+
+    .feature-img-container{
+        width: 100%;
+    }
+
+    .feature-img-container img{
+        width: 100%;
+    } 
+
+    .feature-container-2{
+        flex-direction: column-reverse;
+    }
+    
+    .cta-container{
+        padding-inline: 25px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+
+    .scanner-img .img-2{
+        padding: 30px;
+        height: 30px;
+        width: 20px;
+    }
+    .scanner-text p{
+        display: none;
+    }
+
+    .common-container{
+        width: calc(40% - 5px);
+
+    }
+
+    .social-links-container{
+        flex-direction: column;;
+        align-items: start;
+        gap: 40px;
+    }
+
+    .social-platforms-links {
+        max-width: 500px;
+    }
+
+    .location-links{
+        flex-direction: column;
+        align-items: start;
+        gap: 5px;
+    }
+    .sub-footer-container{
+        flex-direction: column;
+        align-items: start;
+        gap: 40px
+    }
+
+    .right-sub-footer{
+        column-gap: 80px;
+    }
+}
+
+
+@media screen and  (max-width: 599px){
+
+    .container {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    p{
+        font-size: 0.85rem;
+    }
+    
+    h1{
+        font-size: 1.95rem;
+        font-weight: 600;
+        line-height: 45px;
+    }
+    h4{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .main-nav{
+        padding-inline: 15px;
+    }
+
+    .header-section{
+        padding-inline: 24px;
+    }
+
+    .header-container{
+        padding-inline: 0px;
+        padding-block: 24px;
+    }
+
+    
+    .hero-container{
+        width: 100%;
+        padding-block: 40px;
+        padding-inline: 24px;       
+
+    }
+
+    .hero-left-container{
+        width: 100%;
+        max-width: 100%;
+
+    }
+
+    .row{
+        border-radius: 8px;
+        width: 100%;
+    }
+     
+    .feature-container{
+        padding-block: 40px;
+        padding-inline: 24px;     
+    }
+    
+    .feature-text-container{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    
+    .cta-container{
+        padding-block: 40px;
+        padding-inline: 24px; 
+    }
+
+    .cta-container h3{
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .footer-container{
+        padding-block: 40px;
+        padding-inline: 24px;
+    }
+
+    .social-platforms-links{
+        max-width: 600px;
+    }
+
+    .common-container{
+        width: 100%;
+    }    
+
+    .right-sub-footer{
+        gap: 20px;
+    }
+}
+
+@media screen and  (max-width: 320px){
+    h1{
+        font-size: 1.95rem;
+        font-weight: 600;
+       line-height: 40px;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4{
+        font-size:1.25rem;
+    }
+
+    h5{
+        font-size: 1rem;
+    }
+    
+    p{
+        font-size: 0.95rem;
+    }
+    
+    .row{
+        height: 6vh;
+    }
+
+    .card{
+        padding-right: 40px;
+    }
+
+    .account-creation-txt{
+        margin: 0;
+    }
+
+    .scanner-text p{
+        display: none;
+    }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nam="author" content="Alishba Khan">
+    <title>Uber</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body> 
+    <nav class="nav-section">
+        <div class="container main-nav flex">
+        <ul class="left-nav flex">
+            <li><a href="#" class="logo">Vectraa</a></li>
+            <li><a href="#" class="secondary-button btn">Ride</a></li>
+            <li><a href="#" class="secondary-button btn">Drive</a></li>
+            <li><a href="#" class="secondary-button btn">Business</a></li>
+            <li><a href="#" class="secondary-button btn" id="about-btn">About <img src="./images/chevron-down-outline.svg" alt="" srcset=""></a></li>
+        </ul>
+        <ul class="right-nav flex">
+            <li><a href="#" class="secondary-button btn" id="en-btn"><img src="./images/globe-outline.svg" alt="" srcset=""> EN</a></li>
+            <li><a href="#" class="secondary-button btn">Help</a></li>
+            <li><a href="#" class="primary-button btn log-in-btn">Log in</a></li>
+            <li><a href="#" class="primary-button btn">Sign up</a></li>
+            <li><a href="#" class="btn log-in-btn toggle-button"><i class="fa-solid fa-bars" style="color: white;"></i></a></li>
+            
+        </ul>  
+    </div>      
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-container container flex">
+            <div class="hero-left-container">  
+                <div class="hero-text-container">
+                    <h1>Book a trip with <span class="">Vectraa</span></h1>
+                    <p>Request a ride, hop in, and go.</p>
+    
+                </div>              
+            
+                <div class="input-container">
+                    <div class="row flex"><input type="text"  id="enter-location" placeholder="Enter location"><!--<svg width="1em" height="1em" viewBox="0 0 24 24" fill="none" tabindex="0" role="button" class="pe-location-fetch css-bOZeEP" style="border: none; outline: none; height: 30px; width: 25px; "><title>Navigate right up</title><path d="M10.5 13.5.5 11 21 3l-8 20.5-2.5-10Z" fill="black" ></path></svg>--></div>
+                    <div class="row flex"><input type="text"  id="enter-destination" placeholder="Enter destination"></div>
+                </div>
+                <button class="get-started-btn">See prices</button>
+            </div>
+            <div class="hero-right-container">
+                <img src="./images/car-ride.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container feature-container flex">
+            <div class="feature-img-container">
+                <img src="./images/car-drive-gps.jpg" alt="Drive when you want with Vectraa" srcset="">
+            </div>
+            <div class="feature-text-container flex">
+                <h1>Drive on your terms, earn what you need</h1>
+                <p class="feature-text">Unlock flexible income opportunities by providing ride services or delivering packages through Vectraa. Whether you use your own car or opt for a rental, youre in control. Join the Vectraa community today!.</p>
+                <div class="flex account-creation">
+                    <div><button class="get-started-btn">Get Started</button></div>
+                    <div class="flex account-creation-txt-container"></div>
+                        <div class="account-creation-txt"><p>Already have an account?Sign in</p>
+                        <div class="underline"></div></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="container feature-container flex feature-container-2" >
+            <div class="feature-img-container">
+                <img src="./images/car-drive-business.jpg" alt="Vectraa for Business" srcset="">
+            </div>
+            <div class="feature-text-container flex">
+                <h1 style="color: #333333;">Elevating corporate travel, the new way to ride</h1>
+                <p class="feature-text">Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+                <div class="flex account-creation">
+                    <div><button class="get-started-btn">Get Started</button></div>
+                    <div class="flex account-creation-txt-container"></div>
+                        <div class="account-creation-txt"><p>Check out our solutions</p>
+                        <div class="underline"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta-section">
+        <div class="container cta-container">
+            <h3>It's easier in the apps</h3>
+
+            <div class="flex cards">
+                <div class="flex card">
+                    <div class="scanner-img img-1"><img src="./images/QR_code_for_mobile_English_Wikipedia.svg.webp" alt=""></div>
+                    <div class="scanner-text">
+                        <h4 class="scanner-title">
+                        Download the Vectraa App</h4>
+                        <p>Scan to download</p>
+                    </div>
+                    <div class="right-angle"><svg aria-hidden="true" focusable="false" width="1em" height="25" fill="currentColor" viewBox="0 0 36 36"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z" fill="black"></path></svg></div>
+                </div>
+
+                <div class="flex card">
+                    <div class="scanner-img img-1"><img src="./images/QR_code_for_mobile_English_Wikipedia.svg.webp" alt="" srcset=""></div>
+                    <div class="scanner-text">
+                        <h4 class="scanner-title">
+                        Download the Driver App</h4>
+                        <p>Scan to download</p>
+                    </div>
+                    <div class="right-angle"><svg aria-hidden="true" focusable="false" width="1em" height="25" fill="currentColor" viewBox="0 0 36 36"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.2354 2H24.2711L36 18L24.2711 34H18.2354L28.1237 20.56H0V15.44H28.1237L18.2354 2Z" fill="black"></path></svg></div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="text-container">
+                <h3>Vectraa</h3>
+                <p>Visit Help Center</p>
+            </div>
+
+            <div class="flex-container flex">
+                <div class="common-container">
+                    <h5>Company</h5>
+                    <p>About US</p>
+                    <p>Our offerings</p>
+                    <p>Newsroom</p>
+                    <p>Investor</p>
+                    <p>Blogs</p>
+                </div>
+
+                <div class="common-container">
+                    <h5>Products</h5>
+                    <p>Ride</p>
+                    <p>Drive</p>
+                    <p>Vectraa for Business</p>
+                </div>
+
+                <div class="common-container">
+                    <h5>Global citizenship</h5>
+                    <p>Safety</p>
+                    <p>Diversity and Inclusion</p>
+                    <p>Sustainibility</p>
+                </div>
+
+                <div class="common-container">
+                    <h5>Travel</h5>
+                    <p>Reserve</p>
+                    <p>Cities</p>
+                </div>
+            </div>
+
+            <div class="social-links-container flex">
+                <div class="social-platforms-links flex">
+                    <a href="#"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"><title>facebook</title><path d="M21.79 1H2.21C1.54 1 1 1.54 1 2.21v19.57c0 .68.54 1.22 1.21 1.22h10.54v-8.51H9.9v-3.33h2.86V8.71c0-2.84 1.74-4.39 4.27-4.39.85 0 1.71.04 2.56.13v2.97h-1.75c-1.38 0-1.65.65-1.65 1.62v2.12h3.3l-.43 3.33h-2.89V23h5.61c.67 0 1.21-.54 1.21-1.21V2.21C23 1.54 22.46 1 21.79 1Z" fill="white"></path></svg></a>
+                    <a href="#"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"><title>twitter</title><path d="M14.094 10.317 22.28 1H20.34l-7.11 8.088L7.557 1H1.01l8.583 12.231L1.01 23H2.95l7.503-8.543L16.446 23h6.546M3.649 2.432h2.978L20.34 21.639h-2.98" fill="white"></path></svg></a>
+                    <a href="#"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"><title>youtube</title><path d="M23 12s0-3.85-.46-5.58c-.25-.95-1-1.7-1.94-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46c-.95.25-1.69 1.01-1.94 1.96C1 8.15 1 12 1 12s.04 3.85.5 5.58c.25.95 1 1.7 1.95 1.96 1.71.46 8.59.46 8.59.46s6.88 0 8.6-.46c.95-.25 1.69-1.01 1.94-1.96.46-1.73.42-5.58.42-5.58Zm-13 3.27V8.73L15.5 12 10 15.27Z" fill="white"></path></svg></a>
+                    <a href="#"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"><title>linkedin</title><path d="M21.37 1H2.62C1.73 1 1 1.71 1 2.58v18.83c0 .88.73 1.59 1.62 1.59h18.75c.9 0 1.63-.71 1.63-1.59V2.58C23 1.71 22.27 1 21.37 1ZM7.53 19.75H4.26V9.25h3.27v10.5ZM5.89 7.81C4.85 7.81 4 6.96 4 5.92s.84-1.89 1.89-1.89c1.04 0 1.89.85 1.89 1.89.01 1.04-.84 1.89-1.89 1.89Zm13.86 11.94h-3.26v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7v5.19H9.57V9.26h3.13v1.43h.04c.44-.83 1.5-1.7 3.09-1.7 3.3 0 3.91 2.17 3.91 5v5.76h.01Z" fill="white"></path></svg></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="height: 18px; width: 20px;"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="white" /></svg></a>
+                </div>
+                <div class="location-links flex">
+                    <a href="#" ><span class="icon-positioned"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><title>Globe</title><path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1Zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5ZM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5Zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1Zm1.9-6.1-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4ZM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12Zm3.5 6.6 1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4Z" fill="white"></path></svg></span> English</a>
+                    <a href="#" ><span class="icon-positioned"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><title>Location marker</title><path d="M18.7 3.8C15 .1 9 .1 5.3 3.8c-3.7 3.7-3.7 9.8 0 13.5L12 24l6.7-6.8c3.7-3.6 3.7-9.7 0-13.4ZM12 12.5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Z" fill="white"></path></svg></span>Pakistan</a>
+                </div>
+            </div>
+
+            <div class="apps-download-links flex">
+                <a href="#"><img src="./images/app-store-google-4d63c31a3e.svg" alt="" srcset=""></a>
+                <a href="#"><img src="./images/app-store-apple-f1f919205b.svg" alt="" srcset=""></a>
+            </div>
+
+            <div class="sub-footer-container flex">
+                <div class="left-sub-footer">
+                    <div><p>© 2024 Vectraa Technologies Inc.</p></div>
+                </div>
+                <div class="right-sub-footer flex">
+                    <a href="#"><p>Privacy</p></a>
+                    <a href="#"><p>Accessibility</p></a>
+                    <a href="#"><p>Terms</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/fbd33889ac.js" crossorigin="anonymous"></script>
+</body>
+</html>
