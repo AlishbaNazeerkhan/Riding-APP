@@ -86,11 +86,10 @@
         width: 100%;
     }
 
-    .scanner-img .img-2{
-        padding: 30px;
-        height: 30px;
-        width: 20px;
+    .scanner-img{
+        padding: 10px
     }
+
     .scanner-text p{
         display: none;
     }
