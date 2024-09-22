@@ -15,7 +15,7 @@ body{
 :root{
     --primary-website-color: #05445E;
     --secondary-website-color: #B1D4E0;
-    /* --feature-section-color:  #B1D4E0; */
+    --feature-section-color: white;/*#B1D4E0; */
     --primary-text-color: white;
     --secondary-text-color: #5e5e5e;
     --primary-accent-color: #D4F1F4;
