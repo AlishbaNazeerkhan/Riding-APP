@@ -13,12 +13,12 @@ body{
     font-family: 'Inria Sans', sans-serif;
 }
 :root{
-    --primary-website-color: #d4a373;
-    --secondary-website-color: #faedcd;
+    --primary-website-color: #05445E;
+    --secondary-website-color: #189AB4;
     --primary-text-color: white;
     --secondary-text-color: #5e5e5e;
-    --primary-accent-color: #e4a572;
-    --secondary-accent-color: #dda15e;
+    --primary-accent-color: #D4F1F4;
+    --secondary-accent-color: #189AB4;
 }
 
 p{
@@ -227,7 +227,7 @@ input {
 /* feature section */
 
 .feature-section{
-    background-color: #fefae0;
+    background-color: #B1D4E0;
 }
 .feature-container{
     justify-content: center;
@@ -291,8 +291,6 @@ input {
 }
 
 .account-creation-txt {
-    /* padding-bottom: 4px; */
-    /* padding-top: 20px; */
     font-size: 1rem;
     cursor: pointer;
     position: relative;
