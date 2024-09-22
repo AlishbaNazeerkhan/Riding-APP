@@ -14,7 +14,8 @@ body{
 }
 :root{
     --primary-website-color: #05445E;
-    --secondary-website-color: #189AB4;
+    --secondary-website-color: #B1D4E0;
+    /* --feature-section-color:  #B1D4E0; */
     --primary-text-color: white;
     --secondary-text-color: #5e5e5e;
     --primary-accent-color: #D4F1F4;
@@ -227,7 +228,7 @@ input {
 /* feature section */
 
 .feature-section{
-    background-color: #B1D4E0;
+    background-color:var(--feature-section-color);
 }
 .feature-container{
     justify-content: center;
