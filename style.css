@@ -129,7 +129,7 @@ ul li a{
 }
 
 .primary-button:hover{
-    background-color: var(--primary-accent-color);
+    background-color: var(--secondary-accent-color);
     color: white;
 }
 
